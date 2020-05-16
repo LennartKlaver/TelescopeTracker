@@ -6,6 +6,7 @@ The goal of this project is to create a Raspberry Pi based telescope star tracke
 It uses the Raspberry Pi hq camera to fit a 1.25inch eyepiece holder, connect to a pc using buildin wifi to connect to PHD2 or alike by simulating a webcam.
 
 ![Image of RasPi star tracker](https://github.com/LennartKlaver/TelescopeTracker/tree/master/Assembly/IMG_0430.JPEG)
+![Image of RasPi star tracker](https://github.com/LennartKlaver/TelescopeTracker/tree/master/Assembly/IMG_0404.jpg)
 
 # Parts
 * A 3d printed camera mount for the eyepiece.
@@ -40,12 +41,12 @@ I connected the camera with my wifi and then used the steps below.
 2. Check if the camera works by a call from the terminal: `raspistill -o testshot.jpg`
 	Please note: if the image looks blurry, you need to focus the telescope/camera.
 3. Install the RPi web interface for easy looking by browsing to the RasPi IP address: https://elinux.org/RPi-Cam-Web-Interface
-	1. sudo apt-get update
-	2. sudo apt-get dist-upgrade
-	3. sudo apt-get install git 
-	4. git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
-	5. cd RPi_Cam_Web_Interface
-	6. ./install.sh
+	1. `sudo apt-get update`
+	2. `sudo apt-get dist-upgrade`
+	3. `sudo apt-get install git` 
+	4. `git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git`
+	5. `cd RPi_Cam_Web_Interface`
+	6. `./install.sh`
 	7. Browse to the Raspberry Pi's ip address and see the camera output.
 	
 To be continued....
