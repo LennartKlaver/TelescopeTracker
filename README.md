@@ -5,8 +5,8 @@ _**Please note: this is work in progress and not a finished product**_
 The goal of this project is to create a Raspberry Pi based telescope star tracker.
 It uses the Raspberry Pi hq camera to fit a 1.25inch eyepiece holder, connect to a pc using buildin wifi to connect to PHD2 or alike by simulating a webcam.
 
-![Image of RasPi star tracker](https://github.com/LennartKlaver/TelescopeTracker/tree/master/Assembly/IMG_0430.JPEG)
-![Image of RasPi star tracker](https://github.com/LennartKlaver/TelescopeTracker/tree/master/Assembly/IMG_0404.jpg)
+![](https://github.com/LennartKlaver/TelescopeTracker/tree/master/Assembly/IMG_0430.jpg)
+![](https://github.com/LennartKlaver/TelescopeTracker/tree/master/Assembly/IMG_0404.jpg)
 
 # Parts
 * A 3d printed camera mount for the eyepiece.
